@@ -204,7 +204,7 @@
     {
       "title": "Shell cell",
       "text": "%sh\necho \"Hello world\"",
-      "dateUpdated": "Feb 1, 2017 6:51:19 AM",
+      "dateUpdated": "Feb 8, 2017 11:23:40 AM",
       "config": {
         "enabled": true,
         "title": true,
@@ -223,7 +223,7 @@
           }
         },
         "editorMode": "ace/mode/sh",
-        "editorHide": false,
+        "editorHide": true,
         "colWidth": 4.0
       },
       "settings": {
@@ -245,49 +245,8 @@
     },
     {
       "title": "Python cell",
-      "text": "%python\nprint(\"Hello world\")",
-      "dateUpdated": "Jan 25, 2017 8:33:22 AM",
-      "config": {
-        "enabled": true,
-        "title": true,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {},
-          "map": {
-            "baseMapType": "Streets",
-            "isOnline": true,
-            "pinCols": []
-          }
-        },
-        "editorMode": "ace/mode/python",
-        "colWidth": 4.0
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1485333124516_-35055964",
-      "id": "20161205-140620_27821049",
-      "result": {
-        "code": "SUCCESS",
-        "type": "TEXT",
-        "msg": "Hello world\n"
-      },
-      "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "dateStarted": "Jan 25, 2017 8:33:22 AM",
-      "dateFinished": "Jan 25, 2017 8:33:23 AM",
-      "status": "FINISHED",
-      "progressUpdateIntervalMs": 500
-    },
-    {
-      "title": "Spark/Scala cell",
-      "text": "println(\"Hello world\")",
-      "dateUpdated": "Jan 25, 2017 8:33:26 AM",
+      "text": "%python\nprint(\"Hello world\")\n\nprint(1+2)\nprint(\"..\")",
+      "dateUpdated": "Feb 8, 2017 11:22:40 AM",
       "config": {
         "enabled": true,
         "title": true,
@@ -306,7 +265,50 @@
           }
         },
         "editorMode": "ace/mode/scala",
-        "colWidth": 4.0
+        "colWidth": 4.0,
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1485333124516_-35055964",
+      "id": "20161205-140620_27821049",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "Hello world\n3\n..\n"
+      },
+      "dateCreated": "Jan 25, 2017 8:32:04 AM",
+      "dateStarted": "Feb 8, 2017 11:22:41 AM",
+      "dateFinished": "Feb 8, 2017 11:22:41 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "title": "Spark/Scala cell",
+      "text": "println(\"Hello world\")\nprintln(1+2)",
+      "dateUpdated": "Feb 8, 2017 11:24:12 AM",
+      "config": {
+        "enabled": true,
+        "title": true,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {},
+          "map": {
+            "baseMapType": "Streets",
+            "isOnline": true,
+            "pinCols": []
+          }
+        },
+        "editorMode": "ace/mode/scala",
+        "colWidth": 4.0,
+        "editorHide": false
       },
       "settings": {
         "params": {},
@@ -317,11 +319,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Hello world\n"
+        "msg": "Hello world\n3\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "dateStarted": "Jan 25, 2017 8:33:26 AM",
-      "dateFinished": "Jan 25, 2017 8:33:59 AM",
+      "dateStarted": "Feb 8, 2017 11:24:12 AM",
+      "dateFinished": "Feb 8, 2017 11:24:27 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -440,8 +442,8 @@
     },
     {
       "title": "Declaring variables",
-      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\n// Note that the type of a variable or function is written after the variable or function. \n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
-      "dateUpdated": "Jan 25, 2017 8:32:04 AM",
+      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\n// Note that the type of a variable or function is written after the variable or function. \na\u003d\n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
+      "dateUpdated": "Feb 8, 2017 12:42:48 PM",
       "config": {
         "enabled": true,
         "tableHide": true,
@@ -2141,24 +2143,24 @@
   "name": "Practice",
   "id": "2C75UP2R2",
   "angularObjects": {
-    "2C93MQCCX:shared_process": [],
-    "2CAFQY6K3:shared_process": [],
-    "2C71Z8V22:shared_process": [],
-    "2C74PSEZQ:shared_process": [],
-    "2C7936H5V:shared_process": [],
-    "2C6WY8JHA:shared_process": [],
-    "2C8CCCVZ2:shared_process": [],
-    "2C9JTS6JQ:shared_process": [],
-    "2C91JKV9H:shared_process": [],
-    "2C8N1PP7C:shared_process": [],
-    "2C7YTW7VT:shared_process": [],
-    "2C85G18U9:shared_process": [],
-    "2C9XYSTEH:shared_process": [],
-    "2CA474ZG3:shared_process": [],
-    "2C8JNXQ9U:shared_process": [],
-    "2C827138T:shared_process": [],
-    "2CAA7GXEJ:shared_process": [],
-    "2C8W1GCP8:shared_process": []
+    "2CAQ6TN4S:shared_process": [],
+    "2C99ZH6SC:shared_process": [],
+    "2C86CW9XD:shared_process": [],
+    "2C7Y6CHUQ:shared_process": [],
+    "2C8Y6GN3E:shared_process": [],
+    "2CAE8Y29T:shared_process": [],
+    "2C8T3YEN6:shared_process": [],
+    "2CB21PEZQ:shared_process": [],
+    "2C841U4UD:shared_process": [],
+    "2CAUYM778:shared_process": [],
+    "2C93A9SKE:shared_process": [],
+    "2C9YDMJ2N:shared_process": [],
+    "2C861T3JD:shared_process": [],
+    "2C7H9934P:shared_process": [],
+    "2C82J2ZZH:shared_process": [],
+    "2C8MWZH8K:shared_process": [],
+    "2CANNUAJA:shared_process": [],
+    "2C836YCWZ:shared_process": []
   },
   "config": {
     "looknfeel": "default"
